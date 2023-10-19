@@ -6,6 +6,7 @@
 
 ## Interesting slides on NN
 
+- "Introduction to Neural Networks", Philipp Koehn, http://mt-class.org/jhu/slides/lecture-nn-intro.pdf
 ### Slides from "Deep Learning for Computer Vision" course
     - Linear classifiers, https://web.eecs.umich.edu/~justincj/slides/eecs498/498_FA2019_lecture03.pdf
     - Optimization, https://web.eecs.umich.edu/~justincj/slides/eecs498/498_FA2019_lecture04.pdf
