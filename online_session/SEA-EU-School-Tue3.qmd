@@ -1,0 +1,69 @@
+---
+title: "Course 2: Online Session"
+subtitle: "SEA-EU School on Computational Mathematics"
+author: 
+  name: "J. Rafael Rodríguez Galván"
+  affiliation: "Universidad de Cádiz"
+# format: beamer
+title-slide-attributes:
+  data-background-image: img/Split_tower_view_ribbons+EU-short.png 
+  data-background-size: 100%
+  data-background-position: top
+format: revealjs
+---
+
+
+## Outline
+
+::: {.incremental}
+- Software platform and tools used in this course 
+- Mathematical foundations for neural networks
+:::
+
+## Software used in this course
+
+::: {.incremental}
+- **Python** language ![Python](https://s3.dualstack.us-east-2.amazonaws.com/pythondotorg-assets/media/community/logos/python-logo-only.png){width=80}
+- **Numerical libraries** on Python:
+  - *Numpy* (numerical computing on arrays)
+  - *Matplotlib* (plotting and visualizing data arrays)
+  - *Tensorflow* (framework for building neural networks)
+  - ... and more
+- **Poll** (❓): have you used these software tools before?
+:::
+
+## A framework for these libraries
+::: {.incremental}
+- Software described above is *open source* (🆓): you can install it!
+  - To get started, you can use the [*Anaconda* or *Conda* distributions](https://www.anaconda.com/download)
+  - Installing *Tensorflow* is more complicated (A lot of dependences, GPU... Recommended to use [*pip*](https://www.tensorflow.org/install/pip))
+  - No installation is required if you use [**Google Colab**](https://colab.research.google.com)
+    - Although a Google Account is required 🥲
+    - Let's [try Google Colab...](https://colab.research.google.com/drive/1AeyZTsc7CL-YHY74ctlqbbtnjHzsXrm5?usp=sharing)
+:::
+
+## Overview of our software environmet
+Software tools to be used in this course:
+
+::: {.incremental}
+- **Python**: [go to overview...](https://colab.research.google.com/drive/1niFai8RrbrbWY2lEUnHpu26wfDVr0zul?usp=sharing)
+- **Numpy**: [go to overview...](https://colab.research.google.com/drive/1vXIPjfH1IR7yWE4vYloVE7BSOf2fHfUg?usp=sharing)
+- **Matplotlib**: [go to overview...](https://colab.research.google.com/odrive/1t34vuX1mT9n-_qdHX5YpGgvgazufQkfp?usp=sharing)
+- **Tensorflow**: [go to quick overview...](https://colab.research.google.com/drive/1cOwTBjmTDjmbeeDUBAcJuT6NuPvoAGCy?usp=sharing)
+:::
+
+## Math foundations for neural networks 
+::: {.incremental}
+- **Chain rule** for composite functions 
+$f:\mathbb R^n \to \mathbb R$.
+  - *Bibliography*: your favorite book on analysis of functions of several variables
+- Unrestricted **numerical optimization**
+  - *Bibliograpy*: 
+    - [Gradient descent, Quasi-Newton, BFGS methods](https://github.com/ShiqinHuo/Numerical-Optimization-Books/blob/master/Numerical_Optimization_v2.pdf)
+    (_J. Nocedal_ & _S.J. Wright_ book)
+    - [Adam method](https://arxiv.org/pdf/1412.6980)
+    (_D. P. Kingma and J Lei Ba_ ArXiV paper)
+    - [_Malte Braack_ SEA-EU course in Split](https://sea-eu-school.github.io/#courses) 😄
+:::
+
+
